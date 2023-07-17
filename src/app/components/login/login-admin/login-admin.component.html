@@ -1,0 +1,10 @@
+<form class="pure-form pure-form-stacked">
+    <fieldset>
+        <legend>Autenticação</legend>
+        <label for="stacked-login">Login</label>
+        <input type="text" id="stacked-login" placeholder="Login" [(ngModel)]="usuario.Login" name="login" />
+        <label for="stacked-password">Senha</label>
+        <input type="password" id="stacked-password" placeholder="Senha" [(ngModel)]="usuario.Senha" name="senha"/>
+        <button type="button" class="pure-button pure-button-primary" (click)="logar()">Logar</button>
+    </fieldset>
+</form>
